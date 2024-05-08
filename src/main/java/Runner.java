@@ -54,6 +54,7 @@ public class Runner {
 //        2. Print the difference between the largest and smallest value
         int maxNum = Collections.max(numbers);
         int minNum = Collections.min(numbers);
+        System.out.println(maxNum-minNum);
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
         for (int i = 1; i<numbers.size();i++)
             if(numbers.get(i-1)== 1 && numbers.get(i)==1){
